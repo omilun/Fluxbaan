@@ -1,5 +1,5 @@
 # Frontend Dockerfile
-FROM node:25-alpine AS builder
+FROM node:26-alpine AS builder
 
 WORKDIR /app
 COPY package*.json ./
@@ -8,7 +8,7 @@ COPY . .
 ENV NODE_OPTIONS="--max_old_space_size=512"
 RUN npm run build
 
-FROM node:25-alpine AS runner
+FROM node:26-alpine AS runner
 WORKDIR /app
 COPY --from=builder /app/next.config.ts ./
 COPY --from=builder /app/public ./public
