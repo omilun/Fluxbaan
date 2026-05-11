@@ -16,10 +16,10 @@
     "@tanstack/react-query": "^5.100.9",
     "axios": "^1.16.0",
     "lucide-react": "^1.14.0",
-    "next": "16.2.4",
-    "react": "19.2.5",
+    "next": "16.2.6",
+    "react": "19.2.6",
     "react-diff-viewer-continued": "^4.2.2",
-    "react-dom": "19.2.5",
+    "react-dom": "19.2.6",
     "reactflow": "^11.11.4"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "@vitejs/plugin-react": "^6.0.1",
     "@vitest/coverage-v8": "^4.1.5",
     "eslint": "^10",
-    "eslint-config-next": "16.2.4",
+    "eslint-config-next": "16.2.6",
     "happy-dom": "^20.9.0",
     "jsdom": "^29.1.1",
     "tailwindcss": "^4",
